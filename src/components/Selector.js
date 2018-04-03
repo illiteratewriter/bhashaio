@@ -50,7 +50,6 @@ class Selector extends React.Component {
   }
 
   render () {
-    console.log(this.state.options);
     return(
       <div>
         <h1 className="main-heading">Pick the words in order</h1>
