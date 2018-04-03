@@ -53,6 +53,7 @@ class Selector extends React.Component {
     console.log(this.state.options);
     return(
       <div>
+        <h1 className="main-heading">Pick the words in order</h1>
         <div className="sentence-parent">
           <h2 className="sentence">{this.props.sentence}</h2>
         </div>
