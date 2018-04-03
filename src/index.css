@@ -28,6 +28,7 @@ body {
 .sentence-parent {
   display: table;
   min-height: 5rem;
+  width: 40rem;
 }
 
 .sentence {
