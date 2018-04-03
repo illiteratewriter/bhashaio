@@ -25,11 +25,18 @@ body {
   text-align: center;
 }
 
+.sentence-parent {
+  display: table;
+  min-height: 5rem;
+}
+
 .sentence {
   border: 1px solid;
+  display: table-cell;
   width: 40rem;
-  line-height: 5rem;
   text-align: center;
+  font-size: 1.6rem;
+  vertical-align: middle;
 }
 
 .word {

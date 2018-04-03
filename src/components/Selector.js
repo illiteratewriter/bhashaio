@@ -53,7 +53,9 @@ class Selector extends React.Component {
     console.log(this.state.options);
     return(
       <div>
-        <h2 className="sentence">{this.props.sentence}</h2>
+        <div className="sentence-parent">
+          <h2 className="sentence">{this.props.sentence}</h2>
+        </div>
         <div className="answer-box">
           <AnswerBox answer={this.state.answer}/>
         </div>
